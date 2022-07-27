@@ -1,0 +1,42 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #ff0057, #2196f3);
+}
+h2
+{
+    position: relative;
+    display: flex;
+    gap: 20px;
+    color: #fff;
+    font-size: 8em;
+    cursor: pointer;
+}
+h2 span
+{
+    position: relative;
+    filter: blur(5px);
+    padding: 0 5px;
+    transition: 0.5s;
+}
+h2 span:hover
+{
+    filter: blur(0px);
+    transition: 0s;
+}
+h2 span i
+{
+    position: absolute;
+    inset: 0;
+    background: transparent;
+}
